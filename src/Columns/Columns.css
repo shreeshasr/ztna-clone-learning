@@ -1,0 +1,15 @@
+.single-column{
+    border: 0.006rem solid #c8c8c8;
+    font-size: 0.75rem;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    object-fit: contain;
+    font-weight: 500;
+}
+.single-column .MuiSvgIcon-root{
+    width: 1.5rem;
+    height: 1.2rem;
+    color: lightgray;
+}

@@ -1,0 +1,20 @@
+.header{
+    padding-bottom: 0.6rem;
+    border-bottom: 0.5px solid lightgray;
+}
+.header > h1{
+    margin: 0;
+    font-size: 1.625rem;
+}
+.header  a{
+    text-decoration: none;
+    color: #055BB5;
+}
+.header div{
+    color: #99a3a9;
+    font-size: 0.75rem;
+    margin-top: 0.6rem;
+}
+.header span{
+    margin-left: 0.1rem;
+}

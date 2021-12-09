@@ -1,0 +1,47 @@
+.gateways{
+    margin-left: 16rem;
+    width: 70.5rem;
+}
+.middle-row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}
+.info-column{
+    background: #F8F9F9;
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.left a{
+    text-decoration: none;
+    margin-left: 0.5rem;
+    font-size: 0.75rem;
+    color: #055BB5;
+    font-weight: 500;
+}
+.columns{
+    display: flex;
+    background: #F8F9F9;
+    margin-top: 0.5rem;
+}
+.columns > :nth-child(1){
+    flex: 0.5;
+}
+.columns > :nth-child(2){
+    flex: 2.5;
+}
+.columns > :nth-child(3){
+    flex: 3.5;
+}
+.columns > :nth-child(4){
+    flex: 2.5;
+}
+.columns > :nth-child(5){
+    flex: 1;
+}
+.columns > :nth-child(6){
+    flex: 2;
+}

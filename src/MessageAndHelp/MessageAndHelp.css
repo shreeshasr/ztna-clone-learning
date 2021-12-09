@@ -1,0 +1,15 @@
+.message-help{
+    margin-top: 5rem;;
+    text-align: center;
+}
+.message-help > :nth-child(1){
+    color: gray;
+    font-size: 1rem;
+}
+.message-help > :nth-child(2){
+    color: #a9a9a9;
+    font-size: 0.875rem;
+}
+.message-help p{
+    margin: 0.5rem 0;
+}

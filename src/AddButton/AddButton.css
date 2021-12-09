@@ -1,0 +1,16 @@
+.add-button button{
+    background: #055BB5;
+    padding: 0.31rem 0.5rem;
+    border-radius: 0.2rem;
+    width: fit-content;
+    height: 2rem;
+    color: #FFFFFF;
+    font-size: 0.75rem;
+    border: none;
+    cursor: pointer;
+}
+.top-content{
+    display: flex ;
+    justify-content: space-between;
+    border-bottom: 0.01rem solid #d3d3d3;
+}

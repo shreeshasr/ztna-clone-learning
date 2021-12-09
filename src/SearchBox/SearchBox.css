@@ -1,0 +1,26 @@
+.search-box > input{
+    outline: none;
+    border:none;
+    height: 1rem;
+    padding-left: 0.4rem;
+    background: #F8F9F9;
+}
+.search-box > span .MuiSvgIcon-root{
+    width: 1.2rem;
+    height: 1.2rem;
+    color: #007ad9;
+    margin: 0;
+    padding:0;
+}
+.search-box{
+    outline: none;
+    width: 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.1rem solid #c8c8c8;
+    border-radius: 0.2rem;
+}
+.search-box:hover{
+    border: 0.1rem solid #007ad9;
+}

@@ -1,0 +1,46 @@
+.sidebar {
+    background: #152f3c;
+    width:15.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-x: hidden;
+    position: fixed;
+    height: 100%;
+}
+.sidebar > img{
+    width:6.25rem;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.7rem 0;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.back-to-overview{
+    display: flex;
+    justify-content: center;
+    color: #1987CB;
+    align-items: center;
+    margin-top: 0.6rem;
+}
+.back-to-overview > svg{
+    font-size: 2rem;
+}
+.back-to-overview:hover{
+    cursor: pointer;
+}
+.back-to-overview h5{
+    font-size: 0.9rem;
+    margin:0;
+}
+.nav-options a{
+    text-decoration: none;
+}
+.divider{
+    margin: 1rem 0;
+    border-bottom: 1px solid #193847;
+}

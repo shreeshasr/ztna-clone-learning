@@ -1,0 +1,93 @@
+.MuiDialogContent-root{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.field{
+    display: flex;
+    color: #242629;
+    flex-direction: column;
+    padding-bottom: 0.9rem;
+    margin-right: 0.5rem;
+    width: 45%;
+    font-size:  0.75rem;
+}
+.field > input{
+    cursor: text;
+    border:  0.1rem solid #d3d3d3;
+    border-radius: 0.2rem;
+    padding-left: 0.5rem;
+}
+.field:nth-child(3){
+    width:100%;
+}
+.field:nth-child(3) > input{
+    height: 2rem;
+}
+.field > input:hover{
+    border: 0.1rem solid #007ad9;
+}
+.field > input:focus{
+    outline: none;
+}
+.field > input::placeholder{
+    font-size:  0.75rem;
+}
+.field > select::placeholder{
+    font-size:  0.5rem;
+}
+
+.field > select{
+    font-size: 0.75rem;
+    padding: 0.2rem;
+    border:  0.1rem solid #d3d3d3;
+    border-radius: 0.2rem;
+}
+.line{
+    width: 100%;
+    margin: 1rem 0;
+    border-bottom:  0.01rem solid #d3d3d3;;
+}
+
+.top-label{
+    width: 100%;
+    margin-bottom: 0.8rem;
+    font-size: 0.75rem;
+}
+.radios{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8rem;
+    margin-top: 0.2rem;
+    justify-content: space-between;
+}
+.radio-and-label{
+    display: flex;
+    align-items: center;
+}
+.upload-container input{
+   width: 100%;
+   object-fit: fill;
+   display: none;
+}
+.upload-container button{
+    background: #055BB5;
+    color: #FFFFFF;
+    border-radius: 0.1rem;
+    font-size: 0.75rem;
+    padding: 0.2rem;
+    width: 6rem;;
+}
+.upload-container span{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.upload-container .MuiSvgIcon-root{
+    font-size: 1.2rem;
+}
+.upload-container{
+    border: 0.1rem solid #d3d3d3;
+    padding: 0.2rem;
+}

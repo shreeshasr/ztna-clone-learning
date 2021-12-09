@@ -1,23 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import Sidebar from './Sidebar/Sidebar'
+import Dashboard from './Dashboard/Dashboard';
+import {
+  Switch,
+  Route,
+} from "react-router-dom";
+import Reports from './Reports/Reports';
+import { createBrowserHistory } from "history";
+import Gateways from './Gateways/Gateways';
+import Resources from './Resources/Resources';
+import Policy from './Policy/Policy';
+import IdentityProvider from './IdentityProvider/IdentityProvider';
 
 function App() {
+  const customHistory = createBrowserHistory();
+  console.log(customHistory)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Sidebar/>
+        <div className="body-components">
+          <Switch>
+            <Route path="/dashboard" component={Dashboard}/>
+            <Route path="/reports" component={Reports}/>
+            <Route path="/gateways" component={Gateways}/>
+            <Route path="/resources" component={Resources}/>
+            <Route path="/policies" component={Policy}/>
+            <Route path="/identityproviders" component={IdentityProvider}/>
+        </Switch>
+        </div>
     </div>
   );
 }

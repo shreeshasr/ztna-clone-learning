@@ -1,0 +1,18 @@
+.policies{
+    margin-left: 16rem;
+    width: 70.5rem;
+}
+.policies p{
+    padding-left: 0.6rem;
+    font-size: 0.81rem;
+}
+.policies a{
+    text-decoration: none;
+    color: #0000EE;
+}
+.policies h4{
+    padding: 0.6rem 0 0 0.6rem;
+}
+.info-column{
+    background: #F8F9F9;
+}

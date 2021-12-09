@@ -1,0 +1,47 @@
+.single-alert{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1.8rem 0 0rem;
+    border-right: 0.006rem solid #c8c8c8;
+    width: 17.6rem;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.red{
+    color: #D90008;
+}
+.blue{
+    color: #0F7BD5;
+}
+.yellow{
+    color: #ED9D1D;
+}
+.grey{
+    color: #72767E;
+}
+.single-alert h5{
+    margin:0;
+    margin-left: 0.5rem;
+    color: #7F8B93;
+}
+.bottom > .MuiSvgIcon-root{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.single-alert h2{
+    margin: 1rem 0;
+    font-size: 2.81rem;
+}
+.single-alert:last-child{
+    border-right: none;
+}
+.single-alert:hover{
+    cursor: pointer;
+}
