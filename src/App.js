@@ -11,13 +11,16 @@ import Gateways from './Gateways/Gateways';
 import Resources from './Resources/Resources';
 import Policy from './Policy/Policy';
 import IdentityProvider from './IdentityProvider/IdentityProvider';
+import Settings from './Settings/Settings';
 
 function App() {
   const customHistory = createBrowserHistory();
   console.log(customHistory)
   return (
     <div className="App">
-      <Sidebar/>
+      <div className="fixedLeft">
+         <Sidebar/>
+      </div>
         <div className="body-components">
           <Switch>
             <Route path="/dashboard" component={Dashboard}/>
@@ -26,6 +29,7 @@ function App() {
             <Route path="/resources" component={Resources}/>
             <Route path="/policies" component={Policy}/>
             <Route path="/identityproviders" component={IdentityProvider}/>
+            <Route path="/settings" component={Settings}/>
         </Switch>
         </div>
     </div>

@@ -7,6 +7,8 @@ import './AddButton.css'
 import { DialogActions, Button} from '@material-ui/core';
 import GatewayFormContent from '../GatewayFormContent/GatewayFormContent';
 import IdpFormContent from '../IdpFormContent/IdpFormContent';
+import ResourceFormContent from '../ResourceFormContent/ResourceFormContent';
+import PolicyFormContent from '../PolicyFormContent/PolicyFormContent';
 
 
 function SimpleDialog(props) {
@@ -23,7 +25,7 @@ function SimpleDialog(props) {
         <Button onClick={handleClose}><CloseIcon/></Button>
     </div>
     {
-        name.includes("gateway") ? <GatewayFormContent/> : name.includes("identity") ? <IdpFormContent/> : ""
+        name.includes("gateway") ? <GatewayFormContent/> : (name.includes("identity") ? <IdpFormContent/> : (name.includes("resource") ? <ResourceFormContent/> : (name.includes("policy") ? <PolicyFormContent/> : "")))
     }
    
     <DialogActions>

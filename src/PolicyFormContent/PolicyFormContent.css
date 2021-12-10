@@ -1,0 +1,16 @@
+.Policyradios{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.Policyradios .radio-and-label{
+    padding: 0.5rem;
+    max-width: 90%;
+}
+.Policyradios .radio-and-label label{
+    padding-left: 1rem;
+}
+.policyFormContent{
+    font-size: 0.8rem;
+}

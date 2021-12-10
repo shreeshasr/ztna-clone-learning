@@ -15,7 +15,7 @@ function Gateways() {
             <div className="middle-row">
                 <div className="left">
                     <AddButton name="Add gateway"/>
-                    <a href="https://www.sophos.com/Pages/DownloadRedirect.aspx?downloadKey=CCFE1A32-B4E7-4D6F-9A95-892DA3F89F66" download target="_blank">
+                    <a href="https://www.sophos.com/Pages/DownloadRedirect.aspx?downloadKey=CCFE1A32-B4E7-4D6F-9A95-892DA3F89F66" download target="_blank" rel="noreferrer">
                     Download gateway VM
                     </a>
                 </div>

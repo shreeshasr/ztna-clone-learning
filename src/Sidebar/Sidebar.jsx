@@ -10,12 +10,12 @@ import AppsIcon from '@material-ui/icons/Apps';
 import PolicyIcon from '@material-ui/icons/Policy';
 import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 import SettingsIcon from '@material-ui/icons/Settings';
-import { NavLink, BrowserRouter } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 function Sidebar() {
     return (
         <div className="sidebar">
             <div className="logo">
-              <img src="https://cloud-assets.sophos.com/assets/a4a1a12be03d005c1dc8aae6c3a7b8b63fd23045/images/sophos-central-admin-white.png" alt="central"/>
+              <img src="https://cloud-assets.sophos.com/assets/ba5d94eeee2a6b917e6df5194adf2029b138f0cb/customer/96d61dd5220f3e5bf0d7a1f3d5be3c9f.png" alt="central"/>
             </div>
             
             <SidebarOption icon={StarsIcon} option="Zero Trust Network Access"/>

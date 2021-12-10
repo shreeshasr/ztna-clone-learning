@@ -15,7 +15,7 @@ function Policy() {
                 </div>
             </div>
             <p>Note: Policies are assigned to resources. You can assign users at the <NavLink to="/resources">resource</NavLink> level.</p>
-            <p>Download Sophos Endpoint agent from the <a href="#">Downloads</a> page. <a href="#">Learn more</a></p>
+            <p>Download Sophos Endpoint agent from the <a href="https://google.com">Downloads</a> page. <a href="https://google.com">Learn more</a></p>
             <div className="info-column">
                 <h4>Zero Trust - Resource access (10) </h4>
                 <div className="columns">

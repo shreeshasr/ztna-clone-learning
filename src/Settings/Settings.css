@@ -1,0 +1,79 @@
+.settings{
+    margin-left: 16rem;
+    max-width: 100%;
+    margin-right: 0.3rem;
+}
+.setings-middle-row{
+    display: flex;
+    padding: 0.8rem;
+    background: #F8F9F9;
+    justify-content: flex-end;
+}
+.buttons{
+    display: flex;
+}
+.cancel-button button{
+    background: #055BB5;
+    padding: 0.31rem 1rem;
+    border-radius: 0.2rem;
+    width: fit-content;
+    height: 2rem;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    border: none;
+    cursor: pointer;
+}
+.settingsHeading{
+    margin-top: 2rem;
+    font-size: 1rem !important;
+}
+.settingsContent{
+    margin-left: 1rem;
+    color: #72767e;
+}
+.settingsContent p, .settingsContent label{
+    font-size: 0.8rem;
+}
+.topLabel{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+#tokens{
+    width: 9rem;
+    padding: 0.3rem;
+}
+.duration{
+    margin-right: 0.5rem;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    font-size: 0.7rem;
+  }
+  
+  .tooltiptext {
+    visibility: hidden;
+    width: 20rem;
+    background-color: white;
+    color: #72767e;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 5px 1rem;
+    text-align: center;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+  .duration{
+    padding: 0.3rem;
+  }

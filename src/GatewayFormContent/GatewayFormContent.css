@@ -81,7 +81,7 @@
 }
 .upload-container span{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 .upload-container .MuiSvgIcon-root{
